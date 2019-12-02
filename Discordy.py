@@ -42,7 +42,7 @@ async def on_message(message):
             if target_reaction.user != msg.author:
                 #==============================================================
                 #押された絵文字が既存のものの場合 >> 左　del
-                if target_reaction.reaction.emoji == '\u21a9':
+                if target_reaction.reaction.emoji == '✋':
                     #==========================================================
                     #◀のリアクションに追加があったら反応 frelistにuser.nameがあった場合　真
                     if target_reaction.user.name in frelist:
