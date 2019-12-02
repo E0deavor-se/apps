@@ -5,7 +5,7 @@ import sys
 import os
 import traceback
 
-client = discord.Client()
+client = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 
 @client.event
