@@ -1,1 +1,1 @@
-worker: python Discordy.py
+discordbot: python discordy.py
