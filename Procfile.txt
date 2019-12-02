@@ -1,1 +1,1 @@
-discordbot: python 募集Bot(Test).py
+worker: python Discordy.py
